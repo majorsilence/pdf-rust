@@ -1,0 +1,64 @@
+[package]
+name = "majorsilence-pdf"
+version = "1.0.0"
+edition = "2021"
+description = "Rust wrapper for the Majorsilence PDF pdfnative shared library"
+license = "MIT OR Apache-2.0 OR BSD-2-Clause"
+repository = "https://github.com/majorsilence/pdf-rust"
+
+[dependencies]
+libloading = "0.8"
+
+[[example]]
+name = "example_01_hello_world"
+
+[[example]]
+name = "example_02_text_styles"
+
+[[example]]
+name = "example_03_shapes"
+
+[[example]]
+name = "example_04_lines_and_strokes"
+
+[[example]]
+name = "example_05_multipage"
+
+[[example]]
+name = "example_06_custom_font"
+
+[[example]]
+name = "example_07_image"
+
+[[example]]
+name = "example_08_annotations"
+
+[[example]]
+name = "example_09_invoice"
+
+[[example]]
+name = "example_10_dashboard"
+
+[[example]]
+name = "example_11_font_registry"
+
+[[example]]
+name = "example_12_unicode"
+
+[[example]]
+name = "example_13_password_protected"
+
+[[example]]
+name = "example_15_rtl_text"
+
+[[example]]
+name = "example_16_pdf_merge"
+
+[[example]]
+name = "example_17_images_from_disk"
+
+[[example]]
+name = "example_19_text_wrapping"
+
+[[example]]
+name = "example_20_table"
